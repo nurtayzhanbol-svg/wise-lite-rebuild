@@ -1,9 +1,11 @@
 package wiselite.transfer;
 
-import org.springframework.boot;
-import org.springframework.boot.autoconfigure;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringApplication
+@SpringBootApplication
 public class TransferServiceApplication {
-    public static void main(String[]String[] args)
+    public static void main(String[] args) {
+        SpringApplication.run(TransferServiceApplication.class, args);
+    }
 }
